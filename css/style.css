@@ -13,3 +13,8 @@ body {
     height: 15px;
     margin-left: auto;
 }
+
+.nav-link span{
+    color: black !important;
+    font-weight: 600;
+}

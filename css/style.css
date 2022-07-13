@@ -1,0 +1,15 @@
+
+/* Common Rules */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header_top {
+    background-color: black;
+    padding: 10px;
+}
+
+.sony_logo {
+    height: 15px;
+    margin-left: auto;
+}

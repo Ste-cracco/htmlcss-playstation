@@ -14,9 +14,6 @@ body {
     font-size: 24px;
 }
 
-.main_container {
-
-}
 
 /* HEADER */
 .header_top {
@@ -55,4 +52,22 @@ img.card-img-top {
 }
 /* --- SECTION JUMBO END --- */
 
+/* Section 2 */
+.card_ps5 {
+    max-width: 80%;
+}
+
+@media (max-width: 575px) {
+    .descrizione_card_ps5 {
+        display: none;
+    }
+}
+
+/* Section 3 */
+
+.section_3_background {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);                    
+    background-position: center top;
+    background-size: cover;
+}
 

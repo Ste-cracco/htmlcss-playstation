@@ -5,13 +5,13 @@ body {
 }
 
 .titolo_h2 {
-    font-size: 55px;
+    font-size: 45px;
     font-weight: 600;
 }
 
 .paragrafo_generico {
     color: gray;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 
@@ -71,3 +71,10 @@ img.card-img-top {
     background-size: cover;
 }
 
+/* Section Playstation PLUS */
+
+@media (max-width: 768px) {
+    .img_ps_plus {
+        display: none;
+    }
+}

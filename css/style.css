@@ -84,3 +84,14 @@ img.card-img-top {
 .testo_btn_ps_now {
     color: #161C3B;
 }
+
+/* Section Social Media  */
+.icon_social {
+    width: 135px;
+}
+
+@media (max-width: 576px) {
+    .icon_social {
+        width: 50%;
+    }
+}

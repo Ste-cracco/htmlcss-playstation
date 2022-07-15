@@ -14,8 +14,11 @@ body {
     font-size: 16px;
 }
 
+img:hover {
+    cursor: pointer;
+}
 
-/* HEADER */
+/* Header */
 .header_top {
     background-color: black;
     padding: 10px;
@@ -31,7 +34,7 @@ body {
     font-weight: 600;
 }
 
-/* --- SECTION JUMBO --- */
+/* Section Jumbo */
 .jumbo_background {
     background-image: url(../img/jumbo-bg.png);                    
     background-position: center top;
@@ -50,9 +53,8 @@ img.card-img-top {
     border: 2px solid cornflowerblue;
     border-radius: 20px;
 }
-/* --- SECTION JUMBO END --- */
 
-/* Section 2 */
+/* Section 2 - Playstation 5 */
 .card_ps5 {
     max-width: 80%;
 }
@@ -64,7 +66,6 @@ img.card-img-top {
 }
 
 /* Section 3 */
-
 .section_3_background {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);                    
     background-position: center top;
@@ -72,15 +73,14 @@ img.card-img-top {
 }
 
 /* Section Playstation PLUS */
-
 @media (max-width: 768px) {
-    .img_ps_plus {
+    .img_ps_plus,
+    .img_ps_now     {
         display: none;
     }
 }
 
 /* Section Playstation NOW */
-
 .testo_btn_ps_now {
     color: #161C3B;
 }
@@ -94,4 +94,14 @@ img.card-img-top {
     .icon_social {
         width: 50%;
     }
+}
+
+/* Footer */
+footer {
+    background-color: #00439C;
+}
+
+footer span:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
